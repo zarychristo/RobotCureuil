@@ -35,7 +35,7 @@ public class RobotCureuil implements Runnable{
         scanner = new Scanner(System.in);
         commandMap = new CommandMap(this);
         jda.addEventListener(new CommandListener(commandMap));
-        System.out.println("ConnectÃ© en temps que : " + jda.getSelfUser().getName());
+        System.out.println("Connecté en temps que : " + jda.getSelfUser().getName());
     }
 
     @Override
